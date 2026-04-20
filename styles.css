@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    margin: 0;
+    padding: 20px;
+}
     margin: 0;
     padding: 20px;
 }
@@ -76,10 +79,12 @@ h1 {
 /* TARJETAS */
 .card {
     width: 200px;
-    border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
-    background: #fafafa;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 }
 
 .card img {
